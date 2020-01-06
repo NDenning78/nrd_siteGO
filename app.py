@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home_page():
-        return render_template("mainnew.html")
+        return render_template("mainnew_fixbug.html")
 
 @app.route("/frontend_proj")
 def frontend_proj():
